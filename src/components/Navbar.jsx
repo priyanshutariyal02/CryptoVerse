@@ -1,8 +1,21 @@
 import React from 'react'
-
+import { Button, Menu, Typography, Avatar } from "antd";
+import { Link } from "react-router-dom";
+import { HeatMapOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from "@ant-design/icons";
 const Navbar = () => {
     return (
-        <div>Navbar</div>
+        <div className="nav-container">
+            <div className="logo-container">
+                <Avatar />
+                <Typography.Title level={2} className="logo">
+                    <Link to="/">CryptoVerse</Link>
+                </Typography.Title>
+                
+                {/* <Button className="menu-control-container">
+                    working soon...
+                </Button> */}
+            </div>
+        </div>
     )
 }
 
