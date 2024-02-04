@@ -1,0 +1,27 @@
+npm create vite@latest
+
+installing all of the dependancies:
+
+    ant design: for styling
+
+    @ant-design/icons: for icons
+
+    Redux, Redux toolkit
+
+    axios: for API requests
+
+    chart.js: for charts
+
+    parse html data: html-react-parser 
+
+    millify: use to transform extremely large number to readable strings
+
+    moment: use to parse times and dates
+
+    react-chartjs-2: use to render those charts from chart.js in react application
+
+
+
+Final command>> npm i antd @ant-design/icons react-redux @reduxjs/toolkit axios chart.js html-react-parser millify moment react-chartjs-2
+
+
